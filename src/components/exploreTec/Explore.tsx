@@ -12,7 +12,7 @@ const Explore = ({ explorePromise, selected, onAdd }: ExploreProps) => {
   const allExplore = use(explorePromise);
 
   return (
-    <div className="grid grid-cols-3 gap-5 col-span-3 ">
+    <div className="grid grid-cols-3 gap-5 col-span-4 ">
       {allExplore.map((item) => (
         <ExploreCard
           key={item.id}
