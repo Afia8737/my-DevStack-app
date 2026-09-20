@@ -23,7 +23,7 @@ const LinkColumn = ({ title, links }: LinkColumnProps) => (
 
 const Footer = () => {
   return (
-    <footer className="border-t border-base-200 bg-base-100 px-8">
+    <footer className="border-t border-base-200 bg-base-100 px-7">
       <div className="container mx-auto px-4 pt-14 pb-8">
         <div className="grid  gap-10 grid-cols-[2fr_1fr_1fr_1fr]">
           <aside>
