@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@layer base {
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        min-width: 320px;
+
+    }
+}
