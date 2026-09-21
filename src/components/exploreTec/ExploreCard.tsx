@@ -28,7 +28,7 @@ const ExploreCard = ({ explore, isSelected, onAdd }: ExploreCardProps) => {
 
   return (
     <div
-      className={`flex flex-col rounded-xl border bg-base-100 p-5 shadow-sm transition  ${
+      className={`flex flex-col rounded-xl border bg-base-100 p-4 shadow-sm transition hover:shadow-md ${
         isSelected ? "border-slate-900" : "border-base-200"
       }`}
     >
