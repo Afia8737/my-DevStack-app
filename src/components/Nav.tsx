@@ -7,7 +7,7 @@ const Nav = () => {
             <div className="flex h-16 items-center justify-between">
             <img src={Logo} alt='' className='h-auto p-3'/>
 
-            <ul className='flex gap-4 items-center justify-center text-black'>
+            <ul className='flex gap-4 items-center justify-center text-black' >
                 <li className='text-pink-500' > <a className="link link-hover">Home</a></li>
                 <li><a className="link link-hover">Technologies</a></li>
                 <li><a className="link link-hover">Projects</a></li>
