@@ -2,7 +2,11 @@ import { use } from "react";
 import type { IData } from "../../Types/DataType";
 import ExploreCard from "./ExploreCard";
 
-
+type ExploreProps = {
+  explorePromise: Promise<IData[]>;
+  selected: IData[];
+  onAdd: (tech: IData) => void;
+};
 
 const Explore = ({ explorePromise, selected, onAdd }: ExploreProps) => {
   const allExplore = use(explorePromise);
