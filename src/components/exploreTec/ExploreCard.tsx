@@ -7,7 +7,7 @@ type ExploreCardProps = {
   onAdd: (tech: IData) => void;
 };
 
-// Full class names so Tailwind can detect them
+
 const badgeStyles: Record<string, string> = {
   Popular: "bg-blue-50 text-blue-600",
   Versatile: "bg-green-50 text-green-600",
