@@ -46,7 +46,7 @@ const Footer = () => {
           <LinkColumn title="Legal" links={legalLinks} />
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-base-200 pt-6 text-xs text-gray-400 ">
+        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-base-200 pt-6 text-xs text-gray-400 sm:flex-row">
           <p>© {new Date().getFullYear()} Dev Stack. All rights reserved.</p>
           <ul className="flex items-center gap-6">
             <li><a className="link link-hover">Privacy</a></li>
